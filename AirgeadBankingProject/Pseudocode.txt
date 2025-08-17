@@ -1,0 +1,20 @@
+1. Prompt user for:
+   - Initial investment
+   - Monthly deposit
+   - Annual interest rate
+   - Number of years
+
+2. Show user input confirmation screen
+
+3. Generate and display Report 1 (no monthly deposits):
+   - Loop through each year
+   - Calculate and show year-end balance and earned interest
+
+4. Generate and display Report 2 (with monthly deposits):
+   - Loop through each month
+   - Add monthly deposit
+   - Calculate monthly interest
+   - At year end, show balance and earned interest
+
+5. Allow user to test different values
+6. End program
