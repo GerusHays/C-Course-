@@ -1,100 +1,41 @@
-# ===== OS cruft =====
-.DS_Store
-Thumbs.db
-ehthumbs.db
-desktop.ini
+# Prerequisites
+*.d
 
-# ===== Compiled binaries & objects =====
+# Compiled Object files
+*.slo
+*.lo
 *.o
 *.obj
-*.lo
-*.la
-*.al
-*.libs
-*.a
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
 *.so
-*.so.*
 *.dylib
 *.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
 *.lib
-*.exp
-*.pdb
+
+# Executables
 *.exe
 *.out
 *.app
 
-# ===== Debug symbols & dumps =====
-*.dSYM/
-*.stackdump
-
-# ===== Build directories =====
-build/
-Build/
-bin/
-obj/
-build-*/
-cmake-build-*/
-
-# ===== Make/CMake artifacts =====
-*.d
-*.dep
-CMakeCache.txt
-CMakeFiles/
-CTestTestfile.cmake
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# ===== Package/dep managers =====
-_conan/
-
-# ===== Visual Studio / MSVC =====
-*.idb
-*.ilk
-*.ipch
-*.sdf
-*.opensdf
-*.suo
-*.user
-*.VC.db
-*.VC.VC.opendb
-Debug/
-Release/
-x64/
-x86/
-.vs/
-
-# ===== JetBrains CLion =====
-.idea/
-
-# ===== Code::Blocks / Dev-C++ =====
-*.layout
-*.depend
-
-# ===== VS Code (keep useful configs) =====
-.vscode/*
-!.vscode/launch.json
-!.vscode/tasks.json
-!.vscode/extensions.json
-!.vscode/settings.json
-
-# ===== Logs & temp =====
-*.log
-*.tmp
-*.temp
-*.swp
-
-# ===== Coverage =====
-*.gcno
-*.gcda
-*.gcov
-
-# ===== Archives =====
-*.zip
-*.tar
-*.gz
-*.7z
-
-# ===== Misc =====
-.env
+# debug information files
+*.dwo
